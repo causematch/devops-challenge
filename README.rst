@@ -5,7 +5,7 @@ This repository contains a simple REST api, implemented in Python.
 The API documentation is available at ``/openapi.json``, you can interact
 with it at ``/docs``.
 
-Your assignment is to deploy it to AWS or GCP.  Make whatever changes or
+Your assignment is to deploy it to AWS.  Make whatever changes or
 additions to the repo are needed and include instructions for using your work.
 
 You will need a cloud account.  You can create one or use one you have already.
@@ -15,11 +15,10 @@ You should be able to use only free-tier resources for this assignment.
 Requirements
 --------------
 
-* Use any AWS or GCP services you like.  Be prepared to explain
-  your decisions.  (We prefer cheap and scalable, but please use criteria
-  that make most sense to you).
-
-  Note the API uses in-memory storage but long-term persistence is not required.
+* Use any AWS services you like.  Be prepared to explain your decisions.
+  (We prefer cheap and scalable, but please use criteria that make most
+  sense to you).  Note the API uses in-memory storage but long-term
+  persistence is not required.
 
 * Provide a mechanism for deploying new versions of the code, and the
   credentials needed to do this.  If you have other resources in the
@@ -54,5 +53,3 @@ you think would provide the most value.
 
 * Securely expose USERNAME and PASSWORD environment variables to the api,
   which will cause it to require basic auth.  Send us the credentials.
-
-* Make it work on both AWS and GCP.
